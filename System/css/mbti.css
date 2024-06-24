@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff5f0; /* Light background color to match the image */
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+}
+
+h1, h2, h3 {
+    color: #703b1a; /* Darker color for headings */
+}
+
+h4 {
+    position: absolute;
+    left: 10px;
+    color: #703b1a;
+}
+
+.title {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #703b1a; /* Matching the image theme */
+}
+
+.illustration img {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #703b1a; /* Matching the button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a0522d; /* Slightly lighter for hover effect */
+}
+
+.container {
+    position: relative;
+}
+
+.btn-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-container button {
+    margin-right: 10px;
+}
+
+.btn-container form {
+    display: inline-block; /* Keeping forms inline */
+}
+
+.mbti-image {
+    max-width: 900px; /* Smaller image size */
+    height: auto;
+    margin: 0 auto; /* Center the image */
+}
